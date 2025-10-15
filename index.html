@@ -116,7 +116,7 @@ function calculate() {
   const time = parseFloat(document.getElementById('time').value) || 0;
 
   const filamentCost = (used / 1000) * price;
-  const power = 0.08; // kWh/hr for A1 Mini 
+  const power = 0.08; // kWh/hr for A1 Mini , generic PLA
   const slabs = [
     { label: "0–100 units (₹5.5/kWh)", rate: 5.5 },
     { label: "101–300 units (₹6.5/kWh)", rate: 6.5 },
